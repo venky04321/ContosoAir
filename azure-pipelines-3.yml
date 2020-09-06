@@ -30,8 +30,3 @@ steps:
       includeRootFolder: false
   - task: PublishBuildArtifacts@1
     displayName: 'Publish Artifact: drop' 
-
-- script: |
-    npm install
-    npm run build
-  displayName: 'npm install and build'
